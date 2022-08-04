@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
-      <div className="main-container d-flex justify-content-center">
+      <div className="main-container d-flex flex-column align-items-center">
         <Checkout></Checkout>
       </div>
     </div>
