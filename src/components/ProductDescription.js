@@ -1,6 +1,6 @@
 const ProductDescription = () => {
   return (
-    <div className="product-container">
+    <div className="product-container d-flex flex-column">
       <h3 className="product-title">PFL Package</h3>
       <hr class="solid" />
       <p className="product-description-page">
