@@ -29,7 +29,7 @@ const Slider = () => {
               <span className="price">999.990 €</span>
               <span className="price-information">one way ticket</span>
             </div>
-            <button className="btn-purchase">Purchase</button>
+            <button className="btn-success">Purchase</button>
           </div>
         </div>
       </div>
