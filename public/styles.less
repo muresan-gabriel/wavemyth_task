@@ -19,4 +19,67 @@
 
 body {
   background-image: url(./img/bg.png);
+  margin: 0;
+}
+
+// Navigation bar
+
+.nav-links,
+.user-links {
+  display: none;
+}
+
+.navbar {
+  background-color: @dark-blue;
+  width: 100%;
+  margin: 0;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px 0 15px;
+}
+
+.nav-link {
+  margin-left: 40px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.nav-link:hover {
+  color: @main-text-hover;
+}
+
+.user-links,
+.dropdown-menu {
+  width: 100%;
+}
+
+.nav-icon {
+  margin-right: 5px;
+}
+
+.ham-menu {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.ham-menu img {
+  filter: invert(0.7);
+}
+
+// Media queries
+
+@media only screen and (min-width: 768px) {
+  .nav-links,
+  .user-links {
+    display: flex;
+  }
+  .dropdown-menu {
+    display: none;
+  }
+  .navbar {
+    width: 100%;
+  }
 }
